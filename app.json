@@ -1,0 +1,11 @@
+{
+  "name": "logfmt_logger",
+  "description": "",
+  "repository": "https://github.com/mcountryman/logfmt_logger",
+  "success_url": "/",
+  "keywords": ["rust"],
+  "website": "https://github.com/mcountryman/logfmt_logger",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git"
+  }
+}
