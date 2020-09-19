@@ -3,6 +3,10 @@ name = "logfmt_logger"
 version = "0.1.0"
 authors = ["Marvin Countryman <me@maar.vin>"]
 edition = "2018"
+license = "MIT"
+license-file = "LICENSE.md"
+homepage = "https://github.com/mcountryman/logfmt_logger"
+repository = "https://github.com/mcountryman/logfmt_logger"
 keywords = [
   "heroku",
   "logfmt",
@@ -11,9 +15,7 @@ keywords = [
   "env_logger"
 ]
 
-description = """
-A logging implementation for `log`
-"""
+description = "Logging interface implementing Heroku's logfmt."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
