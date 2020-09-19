@@ -1,5 +1,5 @@
+<h1 align="center">logfmt_logger</h1>
 <p align="center">
-  <h1>logfmt_logger</h1>
   <a href="https://docs.rs/logfmt_logger">
     <img src="https://docs.rs/logfmt_logger/badge.svg" alt="docs.rs" width="73" height="20"></img>
   </a>
