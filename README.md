@@ -17,7 +17,7 @@ output format.
 ### Quick Start
 > `Cargo.toml`
 ```toml
-logfmt_logger = "0.0.1"
+logfmt_logger = "0.1.1"
 ```
 
 > `src/main.rs`

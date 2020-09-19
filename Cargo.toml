@@ -1,12 +1,13 @@
 [package]
 name = "logfmt_logger"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Marvin Countryman <me@maar.vin>"]
 edition = "2018"
+
+readme = "README.md"
 license = "MIT"
 license-file = "LICENSE.md"
 homepage = "https://github.com/mcountryman/logfmt_logger"
-repository = "https://github.com/mcountryman/logfmt_logger"
 keywords = [
   "heroku",
   "logfmt",
@@ -14,8 +15,9 @@ keywords = [
   "logger",
   "env_logger"
 ]
-
+repository = "https://github.com/mcountryman/logfmt_logger"
 description = "Logging interface implementing Heroku's logfmt."
+documentation = "https://docs.rs/logfmt_logger"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
