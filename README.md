@@ -22,6 +22,3 @@ fn main() {
   logfmt_logger::init();
 }
 ```
-
-### Examples
-
