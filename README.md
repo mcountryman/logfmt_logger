@@ -3,9 +3,6 @@
 Logger based off of env_logger using Heroku's [logfmt](https://brandur.org/logfmt) as an
 output format.
 
-### Preview
-
-
 ### Quick Start
 > `Cargo.toml`
 ```toml
@@ -20,3 +17,5 @@ fn main() {
   logfmt_logger::init();
 }
 ```
+
+![terminal](docs/terminal.png)
