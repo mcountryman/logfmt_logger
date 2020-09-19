@@ -1,4 +1,8 @@
-# logfmt_logger
+<p align="center">
+  <h1>logfmt_logger</h1>
+  <a href="https://docs.rs/logfmt_logger"><img src="https://docs.rs/logfmt_logger/badge.svg" alt="docs.rs"></img></a>
+  <a href="https://crates.io/crates/logfmt_logger"><img alt="Crates.io" src="https://img.shields.io/crates/v/logfmt_logger"></a>
+</p>
 
 Logger based off of env_logger using Heroku's [logfmt](https://brandur.org/logfmt) as an
 output format.
