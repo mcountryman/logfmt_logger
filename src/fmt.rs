@@ -8,8 +8,9 @@ pub trait Format {
 
 pub fn create_default_format() -> Box<dyn Format + Send + Sync> {
   #[cfg(feature = "color")]
+  #[cfg(debug_assertions)]
   return Box::new(color::ColorFormat::default());
-  #[cfg(not(feature = "color"))]
+  #[cfg(not(debug_assertions))]
   return Box::new(default::DefaultFormat::default());
 }
 
@@ -68,7 +69,6 @@ pub mod color {
     }
   }
 
-  #[cfg(debug_assertions)]
   impl Format for ColorFormat {
     fn write(&self, record: &Record) -> Result<(), Error> {
       let mut stdout = StandardStream::stdout(ColorChoice::Always);

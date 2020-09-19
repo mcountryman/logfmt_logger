@@ -1,0 +1,1 @@
+web: ./target/release/examples/release_env
